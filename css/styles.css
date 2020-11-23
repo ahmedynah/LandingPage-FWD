@@ -8,6 +8,11 @@
  *
 */
 
+/*to enable scrolling rather than jumping*/
+/* html {
+    scroll-behavior: smooth;
+} */
+
 
 /* ---- Base Rules ---- */
 body {
@@ -196,6 +201,8 @@ section:nth-of-type(3n + 1) .landing__container::after {
 section.your-active-class {
     background: rgb(0, 0, 0);
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 section.your-active-class .landing__container::before {
@@ -220,4 +227,16 @@ section.your-active-class .landing__container::after {
 		           translate(-1em) 
 		           rotate(-360deg);
 	}
+}
+
+.up_button{
+    display: flex;
+    width: 5em;
+    height: 3em;
+    margin: 3px auto;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 11pt;
+    color: firebrick;
 }
