@@ -1,8 +1,8 @@
 # Landing Page Project
 
 ## Table of Contents
-1- Introduction
-2- Architecture
+1. Introduction
+2. Architecture
 
 ## 1- Introduction
 
