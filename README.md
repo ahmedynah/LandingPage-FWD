@@ -12,13 +12,14 @@ This project is to implement the knowledge gained in manipulating the DOM and to
 
     The folder structure:
     css
-    - styles.css    
-    index.html
-    js
+    - styles.css 
+     js
     - app.js
+    index.html   
     README.md
 
 
 
 
 # LandingPage-FWD
+This project is part of the FWD profissional track.
